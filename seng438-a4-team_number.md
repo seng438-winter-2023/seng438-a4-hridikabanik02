@@ -15,6 +15,44 @@
 
 # Analysis of 10 Mutants of the Range class 
 
+1) In constrain() method: Incremented (a++) double local variable number 1
+This mutation that has been injected to the constrain() method, according to the source code for constrain(), double result variable is first assigned the value from the double value variable received from the argument, then the value variable is incremented. 
+In our original test suite this mutation was not killed since we did not have a test that considered a range that was very small and close that would detect this change by incrementation.
+
+2) In constrain() method: Decremented (a--) double local variable number 1
+This mutation that has been injected to the constrain() method, according to the source code for constrain(), double result variable is first assigned the value from the double value variable received from the argument, then the value variable is decremented. 
+In our original test suite this mutation was not killed since we did not have a test that considered a range that was very small and close that would detect this change by decrementation.
+
+
+3) In intersects() method: Incremented (a++) double local variable number 1
+This mutation that has been injected to the intersects() method, according to the source code for intersects(), the double b0 variable is first assigned the value and then incremented by 1.
+In our original test suite, this mutation was not killed since we did not have a test that considered boundary cases where incrementing the first argument value by 1 would possibly lead it outside the provided range, which means the result to whether it intersects the range or not would turn out to be different.
+
+4) In intersects() method: Decremented (a--) double local variable number 1
+This mutation that has been injected to the intersects() method, according to the source code for intersects(), the double b0 variable is first assigned the value and then decremented by 1.
+In our original test suite, this mutation was not killed since we did not have a test that considered boundary cases where decrementing the first argument value by 1 would possibly lead it inside the provided range, which means the result to whether it intersects the range or not would turn out to be different.
+
+5) In intersects() method: Incremented (++a) double local variable number 1
+This mutation that has been injected to the intersects() method, according to the source code for intersects(), the double b0 variable is first incremented and then assigned the value.
+In our original test suite, this mutation was not killed since we did not have a test that considered boundary cases where incrementing the first argument value by 1 would possibly lead it outside the provided range, which means the result to whether it intersects the range or not would turn out to be different.
+
+6) In intersects() method: Decremented (--a) double local variable number 1
+This mutation that has been injected to the intersects() method, according to the source code for intersects(), the double b0 variable is first decremented and then assigned the value.
+In our original test suite, this mutation was not killed since we did not have a test that considered boundary cases where incrementing the first argument value by 1 would possibly lead it inside the provided range, which means the result to whether it intersects the range or not would turn out to be different.
+
+7) In intersects() method: Incremented (a++) double field lower
+The mutation injected into the intersects() method involved incrementing the lower variable after assigning it. Although this is in line with the source code for intersects(), our original test suite failed to detect this mutation because we did not have a test that covered a small and close range which would have detected the change caused by the incrementation.
+
+8) In intersects() method: Decremented (a--) double field lower
+The mutation injected into the intersects() method involved decrementing the lower variable after assigning it. Although this is in line with the source code for intersects(), our original test suite failed to detect this mutation because we did not have a test that covered a small and close range which would have detected the change caused by the decrementation.
+
+9) In intersects() method: Incremented (++a) double field lower
+The mutation injected into the intersects() method involved incrementing the lower variable before assigning it. Although this is in line with the source code for intersects(), our original test suite failed to detect this mutation because we did not have a test that covered a small and close range which would have detected the change caused by the incrementation.
+
+10) In intersects() method: Decremented (--a) double field lower
+The mutation injected into the intersects() method involved decrementing the lower variable before assigning it. Although this is in line with the source code for intersects(), our original test suite failed to detect this mutation because we did not have a test that covered a small and close range which would have detected the change caused by the decrementation.
+
+
 # Report all the statistics and the mutation score for each test class
 
 
