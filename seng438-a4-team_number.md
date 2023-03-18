@@ -90,5 +90,12 @@ In conclusion, our team's planned and collaborative testing methodology allowed 
 
 
 # Difficulties encountered, challenges overcome, and lessons learned
+The mutation tests had a long execution time, which caused delays in the testing process.
+Despite having high coverage for our Data Utilities, we encountered a large number of equivalent mutants, making it challenging to improve coverage further.
+Generating and analyzing the test report was a time-consuming and labor-intensive process.
+The Selenium IDE tool had some bugs, causing it to crash frequently while recording test scripts.
+Testing the amazon website was challenging due to inconsistent data and pop-ups, making it difficult to maintain consistent test scenarios.
+The product listings were frequently crashing before opening, causing delays in the testing process.
 
 # Comments/feedback on the lab itself
+The TAs were very helpful and helped us in setting up our PIT testing environment and helped us fix some errors with the system.
