@@ -11,6 +11,7 @@
 |          Hridika Banik      |     |
 
 # Introduction
+In order to give students hands-on experience with software testing, this lab report is split into two sections that are specifically focused on GUI testing and mutation testing.We learned how to utilise a mutation testing tool in the lab's first section to assess the efficacy of their test suites by producing defective copies (mutants) of the Software Under Test (SUT) and running the test suite against them. The major objective is to evaluate the test suite's ability to recognise and differentiate mutants with accuracy, hence raising the test suite's overall standard. The first portion of the report explains the goals, which include learning about mutation testing, calculating the mutation score, and becoming familiar with the Pitest mutation testing tool where as the secomd portion of the report gives a deeper insight about Selenium IDE and how GUI testing is done.
 
 
 # Analysis of 10 Mutants of the Range class 
