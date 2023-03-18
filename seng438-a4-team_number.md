@@ -65,6 +65,13 @@ The mutation injected into the intersects() method involved decrementing the low
 
 # Analysis drawn on the effectiveness of each of the test classes
 
+The range.java originally offered a 64% mutation test coverage, which meant that it was able to find 64% of the code mutations that were introduced. This degree of coverage might be deemed insufficient for a software system because it fails to identify a sizable number of mutations that could result in bugs and errors.
+
+Additional tests were developed to focus on the mutations that the current tests did not detect in order to increase the scope of mutation tests. As a consequence, the mutation test coverage increased to 72%, demonstrating that the additional tests were successful in identifying the previously undetected mutations.
+
+Overall, the increase in mutation test coverage from 64% to 72% by adding tests for previously undetected mutations suggests that the range.java test class is effective in detecting mutations in the code, and that the additional tests were a valuable addition to the testing effort.
+
+
 # A discussion on the effect of equivalent mutants on mutation score accuracy
 
 Equivalent mutants are mutations that result in code that is functionally equivalent to the original code, meaning that the behavior of the program remains the same before and after the mutation. Detecting equivalent mutants does not contribute to the effectiveness of a testing suite since these mutations do not introduce new faults or defects into the program.
