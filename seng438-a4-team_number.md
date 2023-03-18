@@ -74,6 +74,8 @@ Similarly, we conducted checks on the order tracking function by testing it with
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
+Selenium is a web automation testing technology that has a number of benefits. Several browsers, including well-known ones like Google Chrome and Mozilla Firefox, are supported by it. Test case management and organisation are made simpler by the ease with which Selenium may be connected with testing frameworks like TestNG, JUnit, and NUnit etc. In addition, Selenium is open-source software that is cost-free to use and can be modified to meet the unique requirements of a project. 
+
 # How the team work/effort was divided and managed
 
 
