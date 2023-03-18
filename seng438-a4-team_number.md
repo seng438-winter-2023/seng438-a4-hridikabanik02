@@ -11,6 +11,11 @@
 |          Hridika Banik      |     |
 
 # Introduction
+
+Mutation testing is a potent method used in software testing to assess how well a test suite performs in finding errors or bugs in a programme. By making minor adjustments or mutations to the original codebase, it entails producing modified versions of the programme, or mutants. The efficiency of the test suite in catching the new flaws is then assessed by putting these mutants through its current test suite.
+
+In this case, we used Pitest, a well-liked mutation testing tool included in Eclipse, to perform mutation testing on the DataUtilities and Range files. Pitest produces coverage reports and various mutants in our codebase to assist us analyse how well our test suite detects newly introduced mutations. We can improve the overall quality of our software by identifying weak points in our test suite through analysis of the mutation score and the coverage report.
+
 In order to give students hands-on experience with software testing, this lab report is split into two sections that are specifically focused on GUI testing and mutation testing.We learned how to utilise a mutation testing tool in the lab's first section to assess the efficacy of their test suites by producing defective copies (mutants) of the Software Under Test (SUT) and running the test suite against them. The major objective is to evaluate the test suite's ability to recognise and differentiate mutants with accuracy, hence raising the test suite's overall standard. The first portion of the report explains the goals, which include learning about mutation testing, calculating the mutation score, and becoming familiar with the Pitest mutation testing tool where as the secomd portion of the report gives a deeper insight about Selenium IDE and how GUI testing is done.
 
 
