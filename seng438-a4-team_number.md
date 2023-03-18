@@ -72,6 +72,14 @@ Additional tests were developed to focus on the mutations that the current tests
 Overall, the increase in mutation test coverage from 64% to 72% by adding tests for previously undetected mutations suggests that the range.java test class is effective in detecting mutations in the code, and that the additional tests were a valuable addition to the testing effort.
 
 
+The test class dataUtilities.java has achieved a mutation test coverage of 89%, which is a relatively high level of coverage. This means that the test class was able to detect 89% of the introduced mutations in the code, which indicates that the test suite is effective in detecting potential bugs and errors in the system.
+
+However, the fact that the mutation test coverage has remained at 89% and could not be increased further suggests that there are a significant number of equivalent mutants in the code. Equivalent mutants are mutations that do not affect the behavior of the system, and as a result, testing for them is not necessary.
+
+In this case, since the mutation test coverage has already reached a high level, and there are a significant number of equivalent mutants in the code, it may be reasonable to conclude that further efforts to increase the mutation test coverage may not be necessary or practical.
+
+
+
 # A discussion on the effect of equivalent mutants on mutation score accuracy
 
 Equivalent mutants are mutations that result in code that is functionally equivalent to the original code, meaning that the behavior of the program remains the same before and after the mutation. Detecting equivalent mutants does not contribute to the effectiveness of a testing suite since these mutations do not introduce new faults or defects into the program.
