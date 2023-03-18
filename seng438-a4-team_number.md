@@ -66,31 +66,13 @@ The mutation injected into the intersects() method involved decrementing the low
 
 Mutation Coverage
 
-RangeTest
+RangeTest: 
 
-Previous
-92%(95/103)
-64%(808/1259)
-69%(808/1166)
-Updated
-97%(100/103)
-72%(906/1259)
-74%(906/1223)
+Previous 92 64 69       Updated 97 72 74
 
-DataUtilitiesTest
+DataUtilitiesTest: 
 
-Previous
-99
-87
-87
-Updated
-99
-87
-87
-
-
-
-
+Previous 99 87 87       Updated 99 87 87
 
 
 
