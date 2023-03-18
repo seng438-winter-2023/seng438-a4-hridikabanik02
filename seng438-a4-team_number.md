@@ -23,9 +23,39 @@
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
 
+Equivalent mutants are mutations that result in code that is functionally equivalent to the original code, meaning that the behavior of the program remains the same before and after the mutation. Detecting equivalent mutants does not contribute to the effectiveness of a testing suite since these mutations do not introduce new faults or defects into the program.
+
+The DataUtilities test file has a mutation accuracy of 87 percent. This file contains many equivalent mutants that cannot be killed. This prevents us from getting a mutation score of 100 percent because of the unkillable mutants. These scenarios mostly occur in decision and computational changes.
+
+Similarly there are multiple equivalent mutants in the Range test file which affect the actual mutation coverage. We should consider the mutation coverage without the equivalent mutations to get the actual mutation coverage.
+
 # A discussion of what could have been done to improve the mutation score of the test suites
 
+Increasing the amount of test cases in the test suite is one of the best approaches to raise the mutation score. More test cases increase the possibility of finding defects brought on by mutations. This can be accomplished by gradually adding new test cases that simulate various inputs, program routes, and edge cases.
+
+Another approach of increasing the mutation score is by not considering the equivalent test cases to get the actual strength of the code. Improving the quality of the test is also an effective way to make the mutation coverage better. 
+
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
+
+Mutation testing is a very important technique that helps in identifying vulnerabilities in a software testing approach. In doing so it improves the quality of the software testing strategy. By introducing small, intentional changes to the code, known as mutations, this testing technique evaluates how effectively a test suite can detect errors in the source code.
+
+The main aim of mutation testing is to enhance the quality of the test suite and overall code. By testing the code against multiple mutations, we can find out all the weaknesses in the test cases that we wouldn’t have found otherwise. This results in a more robust and error-free code.
+
+Some of the advantages of mutation testing include: 
+
+1) Mutation testing enhances the quality of our test suite by identifying the weaknesses of our previous test suite that couldn’t catch unknown bugs. Moreover, it helps in improving the quality of our source code by creating more reliable and error-free code.
+
+2) By testing the code against a large number of mutations, we can gain a higher degree of confidence in the quality of the code.
+
+3) Using mutation testing to detect bugs early in the development cycle can result in more cost-effective bug fixing.
+
+Some of the disadvantages of mutation testing include: 
+
+1) Running a test suite against numerous mutations during mutation testing can be a time-consuming process, especially source codes that have many lines of code.
+
+2) The cost of implementing mutation testing can be significant, as it requires additional resources and tools.
+
+3) Some mutations may not always indicate a problem in the code and can result in false positives, which can be both time- and resource-consuming.
 
 # Explain your SELENUIM test case design process
 Initially, we started  by identifying the different use-case scenarios , for Amazon.ca, that needed to be tested. Then we proceeded to define the test case scenarios by defining the tests that needed to be executed and the steps that needed to be implemented. We formed a step-by-step routine of the tests so that it can be efficiently performed once we started recording them. We also created example test data such as the category of the product that needs to be selected or item that needs to be searched using the search bar. We then proceeded to set up the Selenium IDE and added it as an extension to our Chrome web browser. Using the test cases and example test data we performed our tests on the Amazon.ca website and recorded our scripts by using HTML tags, in order to write the steps that the user would require to fulfill the outcomes of the user-case scenario. While doing this , we closely looked at any unpredictable results and tried to manually fix them by adding our own test script. We also added several validation checkpoints in order to check that the tests are getting the required outcomes. After the test scripts were written, we executed each one of them in order to identify any discrepancies in the outcomes and how we can make the tests better. 
