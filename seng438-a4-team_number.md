@@ -36,6 +36,11 @@ At specified locations in the test script, assertions are used to verify certain
 Checkpoints are used to verify the application's status at a specified time rather than a particular circumstance. Checkpoints are useful in checking that the application is in the correct state before proceeding with further steps in the test script. Checkpoints are more concerned with the application's present state than assertions, while being identical. For example, a checkpoint is used to check if a specific element of the webpage is being displayed when needed or required by a test script while running. This ensures a smooth execution of the test script while also verifying that the test script is being run correctly. 
 
 # how did you test each functionaity with different test data
+As part of our comprehensive testing of the Amazon website, we performed a thorough evaluation of its various functionalities. Our testing involved scrutinizing the search bar function, category selection, language and country changing, order tracking, filter function, account order status, and sign out features to ensure that they were all working correctly.
+Specifically, for the search bar, we conducted tests using different types of input data to assess its functionality under various circumstances. We tested it with regular items like books and bookshelves to ensure that it performed as expected with standard products. Additionally, we also used invalid data such as non-existent words to examine how the page reacted and responded in such situations.
+Similarly, we conducted checks on the order tracking function by testing it with both valid and invalid tracking numbers. This helped us to determine if the system was able to correctly track the status of orders and provide accurate information. Furthermore, we also evaluated the website's location changing functionality by inputting postal codes that were both valid and invalid. Our aim was to ensure that the system provided the correct response in all cases, regardless of the validity of the input data. Overall, our testing was thorough and meticulous, aimed at uncovering any issues or glitches that may have existed in the system.
+
+
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
