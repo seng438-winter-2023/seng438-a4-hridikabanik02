@@ -32,6 +32,8 @@ Initially, we started  by identifying the different use-case scenarios , for Ama
 
 
 # Explain the use of assertions and checkpoints
+At specified locations in the test script, assertions are used to verify certain circumstances. In Selenium testing, assertions are typically used to check if expected items are available on web pages, certain text or values are displayed, or specific behaviors have been successfully carried out. An example of using assertion is comparing the URL Link of a webpage to that of the expected URL in order to ensure that the test is being performed correctly. In case the expected URL does not match the current URL, the test script will be stopped and will be failed.
+Checkpoints are used to verify the application's status at a specified time rather than a particular circumstance. Checkpoints are useful in checking that the application is in the correct state before proceeding with further steps in the test script. Checkpoints are more concerned with the application's present state than assertions, while being identical. For example, a checkpoint is used to check if a specific element of the webpage is being displayed when needed or required by a test script while running. This ensures a smooth execution of the test script while also verifying that the test script is being run correctly. 
 
 # how did you test each functionaity with different test data
 
