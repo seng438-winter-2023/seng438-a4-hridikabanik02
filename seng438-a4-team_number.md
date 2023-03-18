@@ -63,6 +63,37 @@ The mutation injected into the intersects() method involved decrementing the low
 
 
 
+
+Mutation Coverage
+
+RangeTest
+
+Previous
+92%(95/103)
+64%(808/1259)
+69%(808/1166)
+Updated
+97%(100/103)
+72%(906/1259)
+74%(906/1223)
+
+DataUtilitiesTest
+
+Previous
+99
+87
+87
+Updated
+99
+87
+87
+
+
+
+
+
+
+
 # Analysis drawn on the effectiveness of each of the test classes
 
 The range.java originally offered a 64% mutation test coverage, which meant that it was able to find 64% of the code mutations that were introduced. This degree of coverage might be deemed insufficient for a software system because it fails to identify a sizable number of mutations that could result in bugs and errors.
